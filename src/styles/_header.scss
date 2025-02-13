@@ -1,0 +1,66 @@
+.hiden {
+    display: none;
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.header{
+    top: 0;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: -64px;
+    position: sticky;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(black, .98);
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+
+    &__container {
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .header_button {
+            width: 70px;
+            height: 70px;
+            background-image: url('../../images/saturno_logo.png');
+            background-size: cover;
+            background-position: center;
+            border: none;
+            cursor: pointer;
+            background-color: rgba(black, .0);
+        }
+    }
+
+    .navbar {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.9s ease-in-out;
+
+            margin: 0 auto;
+            max-width: 1024px;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            padding-bottom: 4px;
+
+            a {
+                cursor: pointer;
+                text-decoration: none;
+                color: rgba(white, 0.8);
+                font-size: 18px;
+                padding: 8px;
+
+                &:hover {
+                    color: white;
+                    animation: brilhar 2s infinite;
+                }
+            }
+        }
+    }

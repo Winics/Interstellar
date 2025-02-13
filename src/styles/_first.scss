@@ -1,0 +1,45 @@
+.section {
+    &__first {
+        margin-left: 100px;
+        margin-right: 40px;
+        margin-bottom: 70px;
+        display: flex;
+
+        padding: 20px;
+        padding-bottom: 0px;
+        
+        &--title {
+            cursor: pointer;
+            font-size: 70px;
+            letter-spacing: 20px;
+            margin-bottom: 80px;
+            text-align: center;
+            
+            .info{
+                font-size: 10px;
+            }
+
+            p {
+                margin: 0;
+            }
+            
+            :nth-child(2) {
+                color: rgba(white, 0.85);
+                font-size: 38px;
+                letter-spacing: 20px;
+
+                &:hover {
+                    color: white;
+                    animation: brilhar 2s infinite;
+                }
+            }
+        }
+
+        &--text {
+            color: rgba(white, 0.98);
+            font-weight: Roboto Flex;
+            justify-content: center;
+            font-size: 36px;
+        }
+    }
+}

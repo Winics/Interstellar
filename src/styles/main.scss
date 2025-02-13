@@ -1,0 +1,55 @@
+@use 'video_background';
+@use 'header';
+@use 'first';
+@use 'second';
+@use 'third';
+@use 'grid';
+
+* {
+    cursor: default;
+}
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+
+    font-family: "Roboto Slab", serif;
+}
+
+.section {
+    width: 100%;
+}
+
+.text {
+    color: white;
+}
+
+.scroll-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+    &:hover {
+        background-color: rgba(white, 0.7);
+        color: rgba(0, 0, 0, 0.85);
+    }
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        margin-left: 12px;
+        height: 40px;
+    }
+}

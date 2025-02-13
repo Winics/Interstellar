@@ -1,0 +1,48 @@
+.section_grid {
+  margin: 70px;
+}
+
+.grid-container {
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  border-radius: 20px;
+  justify-items: center;
+}
+
+.grid-item {
+  margin-bottom: 5px;
+  display: flex;
+  background-color: rgba(#ccc, 0.04);
+  color: #ffffff;
+  text-align: justify;
+  border-radius: 20px;
+}
+
+.grid-item img {
+  width: 140px;
+  margin: 10px;
+  margin-right: 0;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.info {
+  text-align: justify;
+  margin-top: 15px;
+  margin-left: 18px;
+
+  strong {
+    font-size: 22px;
+  }
+
+  p {
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    text-align: justify;
+  }
+}

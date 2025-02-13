@@ -1,0 +1,29 @@
+.section {
+    &__third {
+        display: block;
+        margin-left: 100px;
+        margin-right: 40px;
+
+        &--text {
+            margin-bottom: 70px;
+            display: flex;
+
+            .title {
+                text-align: center;
+                margin: 0;
+                font-size: 28px;
+                margin-right: 40px;
+                margin-bottom: 40px;
+                letter-spacing: 10px;
+            }
+
+            .text {
+                text-align: justify;
+                margin: 0;
+                margin-right: 40px;
+                margin-bottom: 20px;
+                font-size: 30px;
+            }
+        }
+    }
+}

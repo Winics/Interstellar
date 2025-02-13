@@ -1,0 +1,32 @@
+.section {
+    &__second {
+        display: block;
+        margin-left: 100px;
+        margin-right: 40px;
+        
+        &--text {
+            margin-bottom: 70px;
+            display: flex;
+
+            .title {
+                margin: 0;
+                font-size: 28px;
+                margin-left: 40px;
+                margin-bottom: 40px;
+                letter-spacing: 10px;
+            }
+
+            .text {
+                margin: 0;
+                margin-left: 40px;
+                margin-bottom: 20px;
+                font-size: 24px;
+            }
+
+            img {
+                height: 450px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
